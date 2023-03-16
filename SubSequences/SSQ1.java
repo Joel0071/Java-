@@ -6,7 +6,7 @@ public static ArrayList<String> returnSSQ1(String s){
         }
         char current=s.charAt(0);
         ArrayList<String> small=new ArrayList<>();
-        small=returnSSQ(s.substring(1));
+        small=returnSSQ1(s.substring(1));
         for(String ss:small){
             ans.add(ss);
             ans.add(current+ss);
